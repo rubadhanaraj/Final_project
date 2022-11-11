@@ -14,3 +14,6 @@ Overview:
 we have data of the sale of 51291 products sold among 150 countries. 
 
 encoding = "ISO-8859-1"
+
+
+I am creating a note
