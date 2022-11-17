@@ -37,7 +37,7 @@ Deliverable One
 * Reason for topic selection
 * Description of the source data
 
-3.Ruba : Machine Learning Model 
+3. Ruba : Machine Learning Model 
 * Takes in data in from the provisional database 
 * Outputs label(s) for input data
 
