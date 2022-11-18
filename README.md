@@ -3,7 +3,7 @@
 The purpose of this project is to analyse the Superstore sales data between the years 2011 - 2014. The main objective of this project is to predict the future sales, profit and demand forecasting. The datset has been downloaded from https://www.kaggle.com/ 
 
 ## Presentation
-Link : https://docs.google.com/presentation/d/1y390VdejVlSMX8o_2vqsDdsWsKxMWvxr/edit?usp=share_link&ouid=117207044042995402543&rtpof=true&sd=true
+Link : https://docs.google.com/presentation/d/1H-rHqhmp2mlxg0gsWFuW3URJST1Oxokn/edit?usp=share_link&ouid=117207044042995402543&rtpof=true&sd=true
 
 ## Description of rudimentary EDA
 The superstore sales dataset has 24 columns and 52000 rows in flat file format. The data has been cleaned with the Python using Pandas library.The CSV has been imported to Jupyter Notebook for cleaning and transformation. The exploratory data analysis started by
@@ -17,6 +17,7 @@ The superstore sales dataset has 24 columns and 52000 rows in flat file format. 
 
 ## Database
 PostgreSQL is the database we are using for this project. ERD and SQL queries have been written to analyse and create tables, which would be helpful in creating visualisations. 
+Entity Relationship Diagram : https://drive.google.com/file/d/1gsY_jhIfgfpAcDV7hpQJpfwTtRJzGZ0x/view?usp=share_link
 
 ## Machine Learning
 We have been using ScikitLearn Maching Learning library to create machine learning models for predicting our data. Data has been split using training and testing split setup by 75:25 train test split ratio. The training dataset have been fit into Mutilple Linear Regression model.
