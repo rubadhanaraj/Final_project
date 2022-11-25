@@ -17,7 +17,8 @@ The superstore sales dataset has 24 columns and 52000 rows in flat file format. 
 * Graphical representation such as Box Plot, Correlation heat map
 
 ## Database
-PostgreSQL is the local database we are using for this project. ERD has been created. Based on ERD, tables have been created using pandas and loaded into Postgres using connection engine. AWS Relational database was created and connected to Postgres and all the python codes have been written in the database. 
+PostgreSQL is the local database we are using for this project. The original dataset has been loaded into Postgres database by changing the encoding of the data. Reference : (https://superuser.com/questions/290593/how-to-convert-character-encodings-on-windows). 
+Entity Relationship Diagram(ERD) has been created. Based on ERD, tables have been created using pandas and loaded into Postgres using connection engine. AWS Relational database was created and connected to Postgres and all the python codes have been written in the database. 
 
 ![image](https://user-images.githubusercontent.com/108298416/203901268-698d3208-08f9-4069-9e3c-3ae84be7eaa8.png)
 
