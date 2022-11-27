@@ -1,16 +1,14 @@
 # Final_project
-GOal:
-our goal is to predict the demand of different products in different countries/regions by analysing the last few years dataset.how can we make the supply more profitable by predicting future sale
-to avaoid the maximum loss.our analysis is based on the following 
+## Getting started With SQL
+### Creating the connection engine:
+Connecting Pandas to a Database with SQLAlchemy
 
-To deteremine if there is any corealation between the product and the region.
-Is there any impact of sale/discount on the sale of products.
-Any effect of the shipping cost on sale.
-By answering these questios we will be able to make wise decisions on distribution/supply of the products according to the demand to make those products more profitable and to avoid the loss.
+![pandas to sql](https://user-images.githubusercontent.com/108497494/204121351-e66bbe6d-8185-4960-9499-0019206aeedd.jpg)
 
 
-
-Overview:
-we have data of the sale of 51291 products sold among 150 countries. 
-
-encoding = "ISO-8859-1"
+## Questions we want to answer
+Is there strong correlations between Discount offered and sales?
+Which ones are the most profitable products?
+Is there any relationship between countries and Sales?
+What is the trend of sales/profit over a  period of time time.
+Countries/regions with loss?
