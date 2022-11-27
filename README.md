@@ -7,8 +7,8 @@ Connecting Pandas to a Database with SQLAlchemy
 
 
 ## Questions we want to answer
-Is there strong correlations between Discount offered and sales?
-Which ones are the most profitable products?
-Is there any relationship between countries and Sales?
-What is the trend of sales/profit over a  period of time time.
-Countries/regions with loss?
+- Is there strong correlations between Discount offered and sales?
+- Which ones are the most profitable products? 
+- Is there any relationship between countries and Sales? 
+- What is the trend of sales/profit over a  period of time time. 
+- Countries/regions with loss? 
