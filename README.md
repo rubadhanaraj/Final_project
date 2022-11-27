@@ -33,7 +33,7 @@ The  machine learning model is connected to the provisonal database using sql co
 
 We have been using ScikitLearn Maching Learning library to create machine learning models for predicting our data. Data has been split using training and testing split setup by 80:20 train test split ratio. The training dataset have been fit into Mutilple Linear Regression model. The r2 score of the scaled training data is 83% and the testing data is 79%
 
-![image](https://user-images.githubusercontent.com/108298416/204118685-eb8fe062-2da2-469a-8c94-10afee1d7631.png)
+![image](https://user-images.githubusercontent.com/108298416/204118819-4a7f2ebb-7a49-46c1-972d-c2c28e95b3dc.png)
 
 ## Dashboard
 In addition to the Microsoft powerpoint presentation, Tableau Public has been used to create interactive dashboard. 
