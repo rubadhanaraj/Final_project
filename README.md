@@ -30,6 +30,6 @@ Connecting Pandas to a Database with SQLAlchemy
 ![Total profit in 2011](https://user-images.githubusercontent.com/108497494/204121471-3e1ffb22-17e6-498d-b0d5-c68b3562f26d.jpg)
 
 
-# Pandas for data cleaning and analysis and visualization:
+# Pandas for data cleaning,analysis and visualization:
 
 
