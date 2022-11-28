@@ -37,7 +37,7 @@ We have been using ScikitLearn Maching Learning library to create machine learni
 
 ## Dashboard
 In addition to the Microsoft powerpoint presentation, Tableau Public has been used to create interactive dashboard. 
-https://public.tableau.com/views/superstore_sales_analysis_16681333746150/SalesinUS?:language=en-US&:display_count=n&:origin=viz_share_link
+https://public.tableau.com/views/superstore_sales_analysis_16681333746150/Superstore_Sales_Profit_Analysis?:language=en-US&:display_count=n&:origin=viz_share_link
 
 ## Questions based on the analysis, the data can answer:
 * The impact on profit if the product is sold without discount
