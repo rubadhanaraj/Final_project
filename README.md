@@ -27,11 +27,12 @@ Different analysis queries have been written in sql to analyse the data and to c
 
 ![image](https://user-images.githubusercontent.com/108298416/204632699-05d7d3a3-05c6-47f7-8935-4441bdac538c.png)
 
-
 ## Machine Learning
-The  machine learning model is connected to the provisonal database using sql connection engine. For this particular project, the questions answered would be the sales predictiomn for the future based on the data for the year 2011-2014. Things noticed in the dataset which could affect the accuracy of prediction are,
-* There are lot 35 duplicate values in Customer_ID, Order_ID and Product_ID columns together. 
-* There are different customer_id's under same order_id and product_id, even though the row id's are unique. The model has been run after dropping the duplicate values.
+The  machine learning model is connected to the provisonal database using sql connection engine. For this particular project, the target variable would be the sales predictiomn for the future based on the data for the year 2011-2014. The correlation matrix and correlation heatmap has been created to check the correlations between the varibales.
+
+![image](https://user-images.githubusercontent.com/108298416/204634308-d3495f68-7442-45fb-9868-3952da7c5309.png)
+
+Things noticed in the dataset which could affect the accuracy of prediction includes, Copiers and Machines had outliers in sales column, so the sub_category columns which had rows with copiers and machines were dropped as a pre-processing step.
 
 ![image](https://user-images.githubusercontent.com/108298416/203901892-2fecc2d4-5751-4a30-aefa-525a4fc9d139.png)
 
