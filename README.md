@@ -21,6 +21,12 @@ PostgreSQL is the local database we are using for this project. The original dat
 
 ![image](https://user-images.githubusercontent.com/108298416/203901268-698d3208-08f9-4069-9e3c-3ae84be7eaa8.png)
 
+Different analysis queries have been written in sql to analyse the data and to create a separate table for United states data for further analysis. The output from the queries written were useful in analysing the top 10 profitable products, Countries/Region which had loss in the sales and profitable category and sub-category of products. Sql has also been used for creating pie charts which visualises the analysis.
+
+![image](https://user-images.githubusercontent.com/108298416/204631595-85ee8dc7-9fc3-4c72-87d5-06b083eb6cd3.png)
+
+![image](https://user-images.githubusercontent.com/108298416/204632699-05d7d3a3-05c6-47f7-8935-4441bdac538c.png)
+
 
 ## Machine Learning
 The  machine learning model is connected to the provisonal database using sql connection engine. For this particular project, the questions answered would be the sales predictiomn for the future based on the data for the year 2011-2014. Things noticed in the dataset which could affect the accuracy of prediction are,
