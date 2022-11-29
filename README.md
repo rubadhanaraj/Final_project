@@ -17,12 +17,10 @@ The superstore sales dataset has 24 columns and 52000 rows in flat file format. 
 * Graphical representation such as Box Plot, Correlation heat map
 
 ## Database
-PostgreSQL is the local database we are using for this project. The original dataset has been loaded into Postgres database by changing the encoding of the data. Reference : (https://superuser.com/questions/290593/how-to-convert-character-encodings-on-windows). 
-Entity Relationship Diagram(ERD) has been created. Based on ERD, tables have been created using pandas and loaded into Postgres using connection engine. AWS Relational database was created and connected to Postgres and all the python codes have been written in the database. 
+PostgreSQL is the local database we are using for this project. The original dataset has been loaded into Postgres database by changing the encoding of the data. Reference : (https://superuser.com/questions/290593/how-to-convert-character-encodings-on-windows). AWS Relational database was created and connected to Postgres and all the python codes have been written in the database. 
 
 ![image](https://user-images.githubusercontent.com/108298416/203901268-698d3208-08f9-4069-9e3c-3ae84be7eaa8.png)
 
-Entity Relationship Diagram : https://drive.google.com/file/d/1gsY_jhIfgfpAcDV7hpQJpfwTtRJzGZ0x/view?usp=share_link
 
 ## Machine Learning
 The  machine learning model is connected to the provisonal database using sql connection engine. For this particular project, the questions answered would be the sales predictiomn for the future based on the data for the year 2011-2014. Things noticed in the dataset which could affect the accuracy of prediction are,
@@ -36,8 +34,16 @@ We have been using ScikitLearn Maching Learning library to create machine learni
 ![image](https://user-images.githubusercontent.com/108298416/204158706-8cafe218-31ae-48b1-898b-dab4c36fe079.png)
 
 ## Dashboard
-In addition to the Microsoft powerpoint presentation, Tableau Public has been used to create interactive dashboard. 
-https://public.tableau.com/views/superstore_sales_analysis_16681333746150/Superstore_Sales_Profit_Analysis?:language=en-US&:display_count=n&:origin=viz_share_link
+In addition to the Microsoft powerpoint presentation, Tableau Public has been used to create interactive dashboard and story using various charts and graphs by analysing the dataset. 
+https://public.tableau.com/views/superstore_sales_analysis_16681333746150/Superstore_Sales_Profit_Analysis?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+
+![Superstore_Sales_Analysis_Story1](https://user-images.githubusercontent.com/108298416/204448849-6037a8d1-4f32-402c-a6ec-219435366686.PNG)
+
+![Yearly_Sales_Sub_Category](https://user-images.githubusercontent.com/108298416/204448891-4c5a2e5c-caff-4495-a936-4f182c3955c8.PNG)
+
+![Superstore_Sales_Analysis_Dashboard](https://user-images.githubusercontent.com/108298416/204449030-d8fd0032-9c30-42c5-adcf-6e65ba73a6ea.PNG)
+
+
 
 ## Questions based on the analysis, the data can answer:
 * The impact on profit if the product is sold without discount
@@ -45,6 +51,8 @@ https://public.tableau.com/views/superstore_sales_analysis_16681333746150/Supers
 * Quaterly breakdown of the products per year and yearly breakdown
 * Sales by segment and country
 * Profit by Market/Region
+* Yearly sales/profit by category and sub_category
+* How ship mode varies according to order priority
 
 ## Team Roles
 Deliverable One - Triangle Role
