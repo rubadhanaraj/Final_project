@@ -1,5 +1,3 @@
-=======
-
 # Superstore_sales_analysis
 ## Overview
 The purpose of this project is to analyse the Superstore sales data between the years 2011 - 2014. The main objective of this project is to predict the future sales, profit and demand forecasting. The datset has been downloaded from https://www.kaggle.com/ 
