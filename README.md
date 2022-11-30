@@ -1,3 +1,4 @@
+=======
 
 # Superstore_sales_analysis
 ## Overview
@@ -97,6 +98,8 @@ Deliverable Two - Triangle Role
 * Finalised the analysis question the data can answer
 * Found the potential outliers of the dataset for the machine learning model
 * Created visualisation in tableau and worked on Presentation
+
+
 
 
 
