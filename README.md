@@ -4,7 +4,7 @@
 The purpose of this project is to analyse the Superstore sales data between the years 2011 - 2014. The main objective of this project is to predict the future sales, profit and demand forecasting. The datset has been downloaded from https://www.kaggle.com/ 
 
 ## Presentation
-Link : https://docs.google.com/presentation/d/1H-rHqhmp2mlxg0gsWFuW3URJST1Oxokn/edit?usp=share_link&ouid=117207044042995402543&rtpof=true&sd=true
+Link : https://docs.google.com/presentation/d/1merdH0H1nxjmDNvGtcrTGUFTuQAKXu_c/edit?usp=share_link&ouid=117207044042995402543&rtpof=true&sd=true
 
 ## Description of rudimentary EDA
 The superstore sales dataset has 24 columns and 52000 rows in flat file format. The data has been cleaned with the Python using Pandas library.The CSV has been imported to Jupyter Notebook for cleaning and transformation. The exploratory data analysis started by
