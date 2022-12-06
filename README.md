@@ -47,7 +47,7 @@ https://public.tableau.com/views/superstore_sales_analysis_16681333746150/Supers
 
 ![Superstore_Sales_Analysis_Story1](https://user-images.githubusercontent.com/108298416/204448849-6037a8d1-4f32-402c-a6ec-219435366686.PNG)
 
-![Yearly_Sales_Sub_Category](https://user-images.githubusercontent.com/108298416/204448891-4c5a2e5c-caff-4495-a936-4f182c3955c8.PNG)
+![Sales by product and sub-category per year](https://user-images.githubusercontent.com/108298416/206036438-b0dcb930-1948-4f5b-9894-6124fe045540.PNG)
 
 ![Superstore_Sales_Analysis_Dashboard](https://user-images.githubusercontent.com/108298416/204449030-d8fd0032-9c30-42c5-adcf-6e65ba73a6ea.PNG)
 
