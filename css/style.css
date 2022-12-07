@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.showcase{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6), no-repeat center center/cover);
+    background-image: url(/images/image28.jpg);
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+.showcase-content1{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6), no-repeat center center/cover);
+    background-image: url(/images/postgres12.jpg);
+    width: 100%;
+    height: 100vh;
+
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* top navbar */
+.showcase .navbar-top{
+    width: 100%;
+    display: flex;
+    padding: 0 80px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a2940;
+    top: 0;
+    left: 0;
+}
+/* ------------------------ */
+
+/* bottom navbar */
+.showcase .navbar-bottom{
+    width: 100%;
+    background: #ffff;
+    padding: 25px 95px;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+}
+.showcase .navbar-bottom .brand-left{
+    color: #55ba53;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.5s ease; 
+
+}
+.showcase .navbar-bottom .brand-left:hover{
+    color: #0a2940;
+}
+.showcase .navbar-bottom .menu-right{
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+.showcase .navbar-bottom .menu-right a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 20px;
+    color: #1a1b1e;
+    transition: all 0.5s ease;
+}
+.showcase .navbar-bottom .menu-right a:hover{
+    color: #55ba53;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* showcase */
+
+.showcase .left{
+    display: flex;
+    list-style: none;
+}
+.showcase .left li a{
+    display: inline-block;
+    font-size: 13px;
+    text-decoration: none;
+    color: #95a2bb;
+    padding: 5px 15px;
+    transition: all 0.5s ease;
+}
+.showcase .left li a:hover{
+    color: #55ba53;
+}
+.showcase .left li:first-child{
+    font-weight: 700;
+    border-right: 1px solid #536daf;
+
+}
+
+
+.showcase .right{
+    list-style: none;
+    display: flex;
+}
+.showcase .right li a{
+    display: inline-block;
+    padding: 5px 15px ;
+    text-decoration: none;
+    color: #95a2bb;
+    transition: all 0.5s ease;
+}
+.showcase ,.right li a:hover{
+    color: #55ba53;
+}
+/* bottom navbar */
+.showcase .navbar-bottom{
+    width: 100%;
+    background: #ffff;
+    padding: 25px 95px;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+}
+.showcase .navbar-bottom .brand-left{
+    color: #55ba53;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.5s ease; 
+
+}
+/* ------------------------------------------------------------------------ */
+/* Showcase-content section styling */
+
+
+.showcase .showcase-content{
+    max-width: 850px;
+    margin-top: 15%;
+    padding: 0 95px;
+}
+.showcase .showcase-content h1{
+    color: #55ba53;
+    filter: contrast(110%);
+    font-size: 50px;
+    margin: 15px 0;
+}
+.showcase .showcase-content span{
+    color: #fff;
+    font-weight: 500;
+}
+.showcase .showcase-content p{
+    color: #5c5c69;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+/* btn left and right styling */
+.showcase .showcase-content .btn-left{
+    background: linear-gradient(to right, #0a3609, #55ba53);
+}
+.showcase .showcase-content .btn-right{
+    background: linear-gradient(to right,#55ba53,#0a3609);
+}
+
+
+/* ----------------------------------------------------------------------------------------*/
+/* Services cards */
+
+/* services section styling */
+#services .items{
+    display: flex;
+    padding-bottom: 40px;
+}
+#services .items .item{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: #0a2940;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3), -5px -5px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s ease;
+}
+#services .items .item h3{
+    color: #55ba53;
+    font-size: 16px;
+    margin: 5px;
+}
+#services .items .item p{
+    line-height: 1.4;
+    color: #95a2bb;
+}
+#services .items .item i{
+    color: #95a2bb;
+}
+#services .items .item:hover i{
+    color: #55ba53;
+}
+#services .items .item:hover{
+    background-color: #0a2940;
+    scale: (1.05);
+}
+#services .items .item:hover h3{
+    color: #f4f4f4;
+}
+/* .list-group .list-group-item{
+    background-color: #0a2940;
+}
+.list-group .list-group-item input{
+    width: 180px;
+}
+table{
+    margin: 24px;
+} */
+
+/* ----------------------------------------------------------------------------------------*/
+/* Slides */
+
+#portfolio{
+    background:#0a2940;
+}
+.portfolio h3{
+    color: #95a2bb;
+    font-size: 14px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.portfolio h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #95a2bb;
+    margin-bottom: 20px;
+}
+.portfolio p{
+    color: #95a2bb;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+
+
+.btn0 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    z-index: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 18px;
+  }
+  
+.btn0:active {
+    transform: scale(1.1);
+  }
+  
+.btn-prev0 {
+    top: 45%;
+    left: 2%;
+  }
+  
+.btn-next0 {
+    top: 45%;
+    right: 2%;
+}
+
+/* ------------------------------------------------------------------------------- */
+#portfolio{
+    background:#0a2940;
+    
+}
+.portfolio h3{
+    color: #95a2bb;
+    font-size: 14px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.portfolio h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #95a2bb;
+    margin-bottom: 20px;
+}
+.portfolio p{
+    color: #95a2bb;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+
+
+
+  .btn0 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    z-index: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 18px;
+  }
+  
+.btn0:active {
+    transform: scale(1.1);
+  }
+  
+.btn-prev0 {
+    top: 45%;
+    left: 2%;
+  }
+  
+.btn-next0 {
+    top: 45%;
+    right: 2%;
+}
+.machine-model{
+    margin-top: 20px;
+    text-align: center;
+}
+.line{
+    width: 50%;
+    border: 1px solid #0a2940;
+    margin-left: 300px;
+}
+
+/* ----------------------------------------------------------------------------------------*/
+* Machine model */
+
+
+
+
+.machine-model{
+    margin-top: 20px;
+    text-align: center;
+}
+.line{
+    width: 65%;
+    border: 1px solid #0a2940;
+    margin-left: 300px;
+}
+.machine-model .items{
+    display: block;
+    padding: 40px;
+    background: #0a2940;
+    color: #95a2bb;
+    border-radius: 5px;
+
+}
+.machine-model .items .item{
+    padding: 20px;
+    line-height: 1;
+}
+/* teams section stylibg */
+.card{
+    margin: 20px;
+    border-radius: 10px;
+}
+
+ .dropdown01 {
+    display: flex;
+    
+ }
+ .dropdown{
+    padding: 5px;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+
+ }
+
+
+/* ----------------------------------------------------------------------------------------*/
+/* teams section styling */
+.card{
+    margin: 20px;
+    border-radius: 10px;
+}
+
+
+
+/* ----------------------------------------------------------------------------------------*/
+/* * Dropdown Button
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  } */
