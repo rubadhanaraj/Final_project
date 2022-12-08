@@ -52,7 +52,9 @@ https://public.tableau.com/views/superstore_sales_analysis_16681333746150/Supers
 
 ![Superstore_Sales_Analysis_Dashboard](https://user-images.githubusercontent.com/108298416/204449030-d8fd0032-9c30-42c5-adcf-6e65ba73a6ea.PNG)
 
+The Machine learning model was deployed in a front end web page using Flask application. Using Bootstrap, a responsive web app was created which is compatible with any device and the model is deployed for the prediction. The user can input all the values which was selected as features. The python code will take the values and insert the values into the trained model which is exisitng as pickle file and the predictions will be made.
 
+![image](https://user-images.githubusercontent.com/108298416/206581294-ab17c571-12a2-4c16-8a0d-c1960e7ccbba.png)
 
 ## Questions based on the analysis, the data can answer:
 * The impact on profit if the product is sold without discount
@@ -82,7 +84,7 @@ https://public.tableau.com/views/superstore_sales_analysis_16681333746150/Supers
 * Created a AWS Postgres database and imported the dataset into database
 * Extracted, transformed and loaded the dataset in Database
 * Connected the database to Machine learning model
-* Created working code for Machine Learning model
+* Created working code for Machine Learning model and deployed the ML model using flask application
 
 
 All the team members did Github, which

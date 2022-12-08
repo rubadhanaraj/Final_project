@@ -1,0 +1,113 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superstore Sales Prediction</title>
+    <style>
+      form{
+        background-color: rgba(197, 185, 193, 0.7);}
+      form{ border: 2px solid black;
+  outline: #212f46 solid 10px;
+  margin: auto;  
+  padding: 20px;
+}
+
+div.container-fluid {text-align: center;}
+      </style>
+</head>
+<body background-color = "Darkblue">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+        <h1>Superstore Sales Prediction</h1>
+      </div>
+    </div>
+</div>
+    <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-9">
+            <form action="{{ url_for('index')}}" method="post" class="bg-dark">
+
+                <label for="Country">Country:</label>
+                <input type="text" id="Country" name="Country" placeholder="Country"><br>['Algeria', 'Australia', 'Hungary', 'Sweden', 'Bangladesh',
+                'United States', 'Angola', 'China', 'Panama', 'Iran', 'France',
+                'Italy', 'Germany', 'Canada', 'United Kingdom', 'Ukraine', 'Japan',
+                'Indonesia', 'Nigeria', 'South Korea', 'Peru', 'Philippines',
+                'Colombia', 'Ireland', 'Nicaragua', 'Mexico', 'Brazil', 'Turkey',
+                'Spain', 'Poland', 'India', 'Somalia', 'El Salvador', 'Sudan',
+                'Slovakia', 'Egypt', 'Saudi Arabia',
+                'Democratic Republic of the Congo', 'Norway', 'New Zealand',
+                'Kenya', 'Cuba', 'Venezuela', 'Singapore', 'Honduras', 'Tanzania',
+                'Dominican Republic', 'Morocco', 'Albania', 'Belgium',
+                'Afghanistan', 'Bolivia', 'Vietnam', 'Guatemala', 'Guinea-Bissau',
+                'Thailand', 'Iraq', 'Myanmar (Burma)', 'Ecuador', 'Netherlands',
+                'Ghana', "Cote d'Ivoire", 'Austria', 'Argentina', 'Madagascar',
+                'Russia', 'South Africa', 'Bosnia and Herzegovina', 'Malaysia',
+                'Romania', 'Israel', 'Burundi', 'Cameroon', 'Paraguay', 'Senegal',
+                'Georgia', 'Kazakhstan', 'United Arab Emirates', 'Pakistan',
+                'Liberia', 'Czech Republic', 'Jamaica', 'Benin', 'Taiwan',
+                'Rwanda', 'Switzerland', 'Denmark', 'Haiti', 'Qatar', 'Chile',
+                'Bulgaria', 'Mozambique', 'Lebanon', 'Barbados', 'Uzbekistan',
+                'Moldova', 'Cambodia', 'Guinea', 'Azerbaijan', 'Zambia', 'Uruguay',
+                'Portugal', 'Uganda', 'Martinique', 'Togo', 'Zimbabwe', 'Finland',
+                'Belarus', 'Libya', 'Lithuania', 'Republic of the Congo',
+                'Tunisia', 'Papua New Guinea', 'Turkmenistan', 'Yemen',
+                'Trinidad and Tobago', 'Kyrgyzstan', 'Croatia', 'Nepal', 'Mali',
+                'Namibia', 'Syria', 'Sierra Leone', 'Gabon', 'Mauritania',
+                'Guadeloupe', 'Niger', 'Sri Lanka', 'Djibouti', 'Jordan',
+                'Equatorial Guinea', 'Hong Kong', 'Mongolia', 'Eritrea',
+                'Slovenia', 'Ethiopia', 'Tajikistan', 'Montenegro',
+                'Central African Republic', 'Lesotho', 'Chad', 'Armenia',
+                'Swaziland', 'Estonia', 'South Sudan', 'Bahrain', 'Macedonia']<br><br>
+
+
+                <label for="Sub_Category">Sub_Category:</label>
+                <input type="text" id="Sub_Category" name="Sub_Category" placeholder="Sub_Category"><br>['Bookcases', 'Chairs', 'Tables', 'Storage', 'Furnishings',
+                'Fasteners', 'Paper', 'Phones', 'Labels', 'Binders', 'Appliances',
+                'Art', 'Accessories', 'Copiers', 'Envelopes', 'Machines',
+                'Supplies']<br><br>
+
+                <label for="Segment">Segment:</label>
+                <input type="text" id="Segment" name="Segment" placeholder="Segment"><br>['Consumer', 'Home Office', 'Corporate']<br><br>
+
+
+                <label for="Order_Priority">Order_Priority:</label>
+                <input type="text" id="Order_Priority" name="Order_Priority" placeholder="Order_Priority"><br>['High', 'Medium', 'Low', 'Critical']<br><br>
+
+
+                <label for="Region">Region:</label>
+                <input type="text" id="Region" name="Region" placeholder="Region"><br>['West', 'Central', 'East', 'South']<br><br>
+
+                <label for="Market">Market:</label>
+                <input type="text" id="Market" name="Market" placeholder="Market"><br>['Africa', 'APAC', 'EMEA', 'EU', 'US', 'LATAM', 'Canada']<br><br>
+
+
+                <label for="Category">Category:</label>
+                <input type="text" id="Category" name="Category" placeholder="Category"><br>['Furniture', 'Office Supplies', 'Technology']<br><br>
+
+                <label for="Per_Unit_Selling_price">Per_Unit_Selling_price:</label>
+                <input type="number" id="Per_Unit_Selling_price" name="Per_Unit_Selling_price" placeholder="Per_Unit_Selling_price"><br>Range[0.3:3770]<br><br>
+
+                <label for="Quantity">Quantity:</label>
+                <input type="number" id="Quantity" name="Quantity" placeholder="Quantity"><br>Range:[1:14]<br><br> 
+
+
+                <label for="Ship_Mode">Ship_Mode:</label>
+                <input type="text" id="Ship_Mode" name="Ship_Mode" placeholder="Ship_Mode"><br>['First Class', 'Standard Class', 'Second Class', 'Same Day']<br><br>
+
+
+                <label for="Shipping_Cost">Shipping_Cost:</label>
+                <input type="number" id="Shipping_Cost" name="Shipping_Cost" placeholder="Shipping_Cost"><br>Range:[0:900]<br><br>
+
+                <button type="submit">Predict</button>
+            </form>
+            <p><strong>Prediction: {{ pred }}</strong> </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
