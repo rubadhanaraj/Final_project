@@ -70,7 +70,7 @@ The Machine learning model was deployed in a front end web page using Flask appl
 1. Ambreen 
 * Created SQL queries for creating tables
 * Created SQL queries for analysis 
-* Worked on JavaScript and HTML for the webpage
+* Created HTML code for the front end webpage
 * Deployed the webpage using Flask
 
 2. Rajesh 
